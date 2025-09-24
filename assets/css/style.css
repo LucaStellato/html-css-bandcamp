@@ -91,8 +91,22 @@ body {
            padding-bottom: 18px;
            font-size: 18px;
         }
-    }
 
+        .whishlist{
+            color: white;
+            border: 1px solid white;
+            background-color: #222222;
+            margin-top: 6px;
+            margin-left: 28px;
+            margin-bottom: 70px;
+            
+        }
+    }
+    span{
+            margin-left: 27px;
+             color: white;
+             margin-top: 25px;
+    }
 }
 
 .row {
