@@ -34,8 +34,10 @@ body {
 
 .left {
     width: 70%;
-
+    margin-left: 30px;
     height: 100%;
+    margin-top: 20px;
+    border-right: 2px solid grey;
 
 
 }
@@ -51,8 +53,8 @@ body {
     .album {
         margin-right: 10px;
         padding-bottom: 20px;
-        padding-left: 30px;
-        padding-top: 20px;
+      
+   
         
     
         
@@ -136,10 +138,13 @@ header {
 main {
     height: calc(100% - 112px);
     display: flex;
-    background-color: #222222;
+  
 }
 
 .container-flex{
     display: flex;
     
+}
+body{
+      background-color: #222222;
 }
