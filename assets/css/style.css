@@ -55,6 +55,14 @@ body {
 header {
     height: 112px;
     background-color: #222222;
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        nav{
+            display: flex;
+        }
+    }
  
 }
 
