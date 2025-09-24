@@ -33,8 +33,8 @@ body{
 
 .wrapper{
     height: calc(100%-112px);
+    
 }
-
 .left{
     width: 60%;
 }
@@ -44,3 +44,6 @@ body{
 .row{
     display: flex;
 }
+
+
+
