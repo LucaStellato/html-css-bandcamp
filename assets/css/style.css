@@ -3,11 +3,27 @@
 }
 
 .debug{
-
     .top {
     height:53px;
     background-color: green;
+    border: 1px dashed black;
+   
     
     }
+    .bottom{
+        height: 55px;
+        background-color: blueviolet;
+        border: 1px dashed black;
+
+    }
     
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.wrapper{
+    height: calc(100%-112px);
 }
