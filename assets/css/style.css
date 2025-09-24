@@ -17,6 +17,9 @@
     .right {
         background-color: rgb(74, 54, 54);
     }
+    header{
+        background-color: blue;
+    }
 
 }
 
@@ -51,7 +54,8 @@ body {
 
 header {
     height: 112px;
-    background-color: blue;
+    background-color: #222222;
+ 
 }
 
 
