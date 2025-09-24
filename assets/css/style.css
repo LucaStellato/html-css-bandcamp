@@ -27,7 +27,7 @@
 body {
     height: 100vh;
     overflow: hidden;
-
+   
 }
 
 
@@ -104,5 +104,6 @@ header {
 main {
     height: calc(100% - 112px);
     display: flex;
+    background-color: #222222;
 }
 
