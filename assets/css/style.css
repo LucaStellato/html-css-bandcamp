@@ -17,7 +17,8 @@
     .right {
         background-color: rgb(74, 54, 54);
     }
-    header{
+
+    header {
         background-color: blue;
     }
 
@@ -27,13 +28,13 @@
 body {
     height: 100vh;
     overflow: hidden;
-   
+
 }
 
 
 .left {
     width: 65%;
-   
+
     height: 100%;
 
 
@@ -47,14 +48,23 @@ body {
 
 .row {
     display: flex;
-    .album{
-                    padding-left: 23px;
 
-        img{
-            width:190px;
-            height:189px;
-         
-            
+    .album {
+        padding-left: 23px;
+
+        p{
+            color: white;
+            font-size: 15px;
+        }
+        span{
+            color: grey;
+        }
+
+        img {
+            width: 190px;
+            height: 189px;
+
+
         }
     }
 }
@@ -65,19 +75,23 @@ body {
 header {
     height: 112px;
     background-color: #222222;
-    .top{
+
+    .top {
         display: flex;
         align-items: center;
         justify-content: space-between;
         height: 56px;
-        nav{
+
+        nav {
             display: flex;
             gap: 1rem;
-            a{
+
+            a {
                 color: white;
                 margin-right: 30px;
             }
-            .discover{
+
+            .discover {
                 background-color: #464646;
                 border: 0;
                 color: #898989;
@@ -85,29 +99,32 @@ header {
                 height: 30px;
                 width: 230px;
             }
-            img{
+
+            img {
                 margin-left: 30px;
             }
         }
     }
-    .bottom{
+
+    .bottom {
         background-color: #2b2b2b;
         height: 56px;
-        .genre{
-               background-color: #464646;
-                border: 0;
-                color: #898989;
-                border-radius: 20px;
-                height: 30px;
-                width: 330px;
-                margin-left: 30px;
-                margin-top: 10px;
-                padding-left: 20px;
-                border: 1px solid #6e6e6e;
-                
+
+        .genre {
+            background-color: #464646;
+            border: 0;
+            color: #898989;
+            border-radius: 20px;
+            height: 30px;
+            width: 330px;
+            margin-left: 30px;
+            margin-top: 10px;
+            padding-left: 20px;
+            border: 1px solid #6e6e6e;
+
         }
     }
- 
+
 }
 
 
@@ -116,4 +133,3 @@ main {
     display: flex;
     background-color: #222222;
 }
-
