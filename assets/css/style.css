@@ -46,11 +46,13 @@ body {
 
 }
 
-.row {
+.row{
     display: flex;
+    padding:10px;
 
     .album {
         padding-left: 23px;
+       
 
         p{
             color: white;
