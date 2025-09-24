@@ -33,7 +33,7 @@ body {
 
 
 .left {
-    width: 65%;
+    width: 70%;
 
     height: 100%;
 
@@ -41,7 +41,7 @@ body {
 }
 
 .right {
-    width: 35%;
+    width: 30%;
     height: 100%;
 
 }
@@ -50,7 +50,6 @@ body {
     
     .album {
         margin-right: 10px;
-        width: calc(100% / 4);
         padding-bottom: 20px;
         padding-left: 30px;
         padding-top: 20px;
@@ -67,8 +66,8 @@ body {
             color: grey;
         }
         img{
-            width: 200px;
-            height: 200px;
+            width: 240px;
+            height: 240px;
             
         }
         
@@ -142,4 +141,5 @@ main {
 
 .container-flex{
     display: flex;
+    
 }
