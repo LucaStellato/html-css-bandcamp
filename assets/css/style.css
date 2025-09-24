@@ -47,27 +47,31 @@ body {
 }
 
 .row{
-    display: flex;
-    padding:10px;
-
+    
     .album {
-        padding-left: 23px;
-       
+        margin-right: 10px;
+        width: calc(100% / 4);
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-top: 20px;
+        
+    
+        
 
         p{
             color: white;
             font-size: 15px;
+            
         }
         span{
             color: grey;
         }
-
-        img {
-            width: 190px;
-            height: 189px;
-
-
+        img{
+            width: 200px;
+            height: 200px;
+            
         }
+        
     }
 }
 
@@ -134,4 +138,8 @@ main {
     height: calc(100% - 112px);
     display: flex;
     background-color: #222222;
+}
+
+.container-flex{
+    display: flex;
 }
