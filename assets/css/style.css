@@ -72,6 +72,13 @@ body {
         }
       
     }
+    .title{
+            margin-left: 15px;
+            margin-top: 15px;
+            p{
+                margin-bottom: 5px;
+            }
+    }
 
 }
 
