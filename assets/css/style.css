@@ -45,40 +45,65 @@ body {
 .right {
     width: 30%;
     height: 100%;
-    img{
-        width: 359px;
-        height: 356px;
+    justify-content: center;
+    
+
+    img {
+        width: 380px;
+        height: 380px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .music {
+        display: flex;
+        align-items: center;
+        i {
+            background-color: #222222;
+            color: white;
+            font-size: 80px;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        p{
+            color: white;
+        
+            
+        }
+      
     }
 
 }
 
-.row{
-    
+.row {
+
     width: 100%;
-    
+
     .album {
         margin-right: 10px;
         padding-bottom: 20px;
-    
-   
-        
-    
-        
 
-        p{
+
+
+
+
+
+        p {
             color: white;
             font-size: 15px;
-            
+
         }
-        span{
+
+        span {
             color: grey;
         }
-        img{
+
+        img {
             width: 250px;
             height: 250px;
-            
+
         }
-        
+
     }
 }
 
@@ -146,13 +171,14 @@ header {
 main {
     height: calc(100% - 112px);
     display: flex;
-  
+
 }
 
-.container-flex{
+.container-flex {
     display: flex;
-    
+
 }
-body{
-      background-color: #222222;
+
+body {
+    background-color: #222222;
 }
