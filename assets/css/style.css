@@ -1,50 +1,61 @@
-*{
+* {
     margin: 0;
 }
 
-.debug{
-    .top {
-    height:53px;
-    background-color: green;
-    border: 1px dashed black;
-   
-    
-    }
-    .bottom{
-        height: 55px;
-        background-color: blueviolet;
+.debug {
+    background-color: red;
+
+    * {
         border: 1px dashed black;
-
-    }
-    .wrapper{
-        background-color: rgb(255, 1, 1);
-        
-        
     }
 
-    .row{
-          border: 1px dashed black;
+    .left {
+
+        background-color: green;
     }
+
+    .right {
+        background-color: rgb(74, 54, 54);
+    }
+
 }
 
 
+body {
+    height: 100vh;
+    overflow: hidden;
 
-.wrapper{
-    height: calc(100%-112px);
-       height: 100vh;
-       overflow: hidden;
-       padding-top: 10px;
-    
 }
-.left{
-    width: 60%;
+
+
+.left {
+    width: 65%;
+
+    height: 100%;
+
+
 }
-.right{
-    width: 40%;
+
+.right {
+    width: 35%;
+    height: 100%;
+
 }
-.row{
+
+.row {
     display: flex;
 }
 
 
 
+
+header {
+    height: 112px;
+    background-color: blue;
+}
+
+
+main {
+    height: calc(100% - 112px);
+    display: flex;
+}
