@@ -229,4 +229,48 @@ body {
 
 
 
-@media screen and (min-width:744px) {}
+@media screen and (max-width:744px) {
+    .container-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+        .row {
+            .album {
+                img {
+                    height: 180px;
+                    width: 180px;
+                }
+            }
+        }
+
+
+    }
+
+    .right {
+        img {
+            height: 190px;
+            width: 190px;
+        }
+
+        .music {
+            i {
+                font-size: 60px;
+            }
+        }
+        .button{
+        .gtam, .whishlist {
+            white-space: nowrap;
+               margin-top: 11px;
+            margin-left: 25px;
+            padding-left: 52px;
+            padding-right: 52px;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            font-size: 18px;
+        }
+         }
+    }
+
+     
+         
+       
+}
