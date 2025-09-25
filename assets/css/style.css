@@ -1,5 +1,9 @@
 * {
     margin: 0;
+    img{
+        border: 1px solid grey;
+    }
+ 
 }
 
 .debug {
@@ -38,6 +42,7 @@ body {
     height: 100%;
     margin-top: 20px;
     border-right: 2px solid grey;
+    overflow-y: auto;
 
 
 }
@@ -119,6 +124,10 @@ body {
     }
 }
 
+   a:hover{
+        background-color:#2b2b2b
+    }
+
 .row {
 
     width: 100%;
@@ -167,6 +176,9 @@ header {
         nav {
             display: flex;
             gap: 1rem;
+            img{
+                border: 0;
+            }
 
 
             a {
@@ -187,6 +199,10 @@ header {
                 margin-left: 30px;
                 width: 124px;
                 height: 35px
+            }
+            .glass{
+                color: white;
+                display: none;
             }
         }
     }
@@ -238,7 +254,7 @@ body {
 
 
 
-@media screen and (min-width:744px) {
+@media screen and (max-width:744px) {
     .top {
         .discover {
             margin-top: 3px;
@@ -355,13 +371,16 @@ body {
 }
 
 
-@media screen and (min-width:600px) {
+@media screen and (max-width:600px) {
     header {
         & .top {
             & nav {
                 .discover {
 
                     display: none;
+                }
+                .glass{
+                    display: block;
                 }
             }
         }
