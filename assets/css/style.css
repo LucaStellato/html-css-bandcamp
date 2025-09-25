@@ -126,7 +126,8 @@ body {
 }
 
 a:hover {
-    background-color: #2b2b2b
+    background-color: #2b2b2b;
+    transform: scale(1.2);
 }
 
 .row {
