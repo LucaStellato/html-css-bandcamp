@@ -229,15 +229,29 @@ body {
     background-color: #222222;
 }
 
+.profile, .follow{
+    display: none;
+}
+
 
 
 
 
 @media screen and (max-width:744px) {
+    .top{
+        .discover{
+            margin-top: 3px;
+        }
+    }
+    
+    
+    
+    
+    
     .container-grid {
         grid-template-columns: repeat(2, 1fr);
-
-        .row {
+        .left
+       {
             .album {
                 img {
                     height: 180px;
@@ -250,6 +264,9 @@ body {
     }
 
     .right {
+       
+        height: 100%;
+        width: 100vw;
         .song {
             height: 190px;
             width: 190px;
@@ -303,6 +320,8 @@ body {
                 }
             }
         }
+        .btn-follower{
+            padding-bottom: 40px;
 
         .follow {
             white-space: nowrap;
@@ -317,6 +336,7 @@ body {
             margin-top: 10px;
             margin-left: 28px;
             margin-bottom: 70px;
+        }
         }
     }
 }
