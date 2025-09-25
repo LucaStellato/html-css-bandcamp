@@ -135,9 +135,24 @@ body {
     .album {
         margin-right: 10px;
         padding-bottom: 20px;
+   
+         .cnt{
+            position: relative;
+        }
 
+        
+        
+        
+        .play{
+        position: absolute;
+            bottom: 30px;
+            left: 9px;
+            font-size: 26px;
+            color: white;
+            display: none;
+        }
 
-
+       
 
 
 
@@ -249,6 +264,8 @@ body {
 .btn-follower {
     display: none;
 }
+
+
 
 
 
