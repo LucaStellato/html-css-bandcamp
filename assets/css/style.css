@@ -113,6 +113,9 @@ body {
         color: white;
         margin-top: 25px;
     }
+    .released{
+        display: none;
+    }
 }
 
 .row {
@@ -259,7 +262,7 @@ body {
         .button{
         .gtam, .whishlist {
             white-space: nowrap;
-               margin-top: 11px;
+               margin-top: px;
             margin-left: 25px;
             padding-left: 52px;
             padding-right: 52px;
@@ -267,6 +270,14 @@ body {
             padding-bottom: 18px;
             font-size: 18px;
         }
+
+        .whishlist{
+            margin-bottom: 20px
+        }
+         }
+         .released{
+            display: block;
+            margin-top: 5px;
          }
     }
 
