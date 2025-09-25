@@ -150,9 +150,15 @@ body {
             font-size: 26px;
             color: white;
             display: none;
+            background-color: transparent;
+            border: none;
         }
 
-       
+       .cnt:hover{
+        .play{
+            display: block;
+        }
+       }
 
 
 
