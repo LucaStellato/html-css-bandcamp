@@ -265,6 +265,9 @@ body {
         }
 
     }
+    .left{
+        overflow-y: auto;
+    }
 
     .right {
         padding-right: 15px;
