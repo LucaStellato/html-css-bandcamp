@@ -365,12 +365,21 @@ body {
                 }
             }
         }
+        & .bottom {
+            .genre{
+                width: 513px;
+            }
+        }
     }
     .right{
         display: none;
     }
     .left{
         width: 100%;
+        border-right: 0;
+        overflow-y: auto;
     }
-    
+    .container-grid{
+        grid-template-columns: repeat(2, 1fr)
+    }
 }
