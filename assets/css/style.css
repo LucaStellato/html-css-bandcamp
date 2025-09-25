@@ -284,6 +284,7 @@ body {
 
     .left {
         overflow-y: auto;
+        margin-left: 23px;
     }
 
     .right {
@@ -325,10 +326,12 @@ body {
 
         .profile {
             display: flex;
+            
 
             img {
                 margin-top: 18px;
                 margin-left: 18px;
+                border:0;
             }
 
             .name {
