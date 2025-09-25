@@ -265,7 +265,8 @@ body {
         }
 
     }
-    .left{
+
+    .left {
         overflow-y: auto;
     }
 
@@ -354,16 +355,22 @@ body {
 }
 
 
-@media screen and (min-width:600px) 
-{
+@media screen and (min-width:600px) {
+    header {
+        & .top {
+            & nav {
+                .discover {
 
-}
-
-
-
-
-
-
-
-        
+                    display: none;
+                }
+            }
+        }
+    }
+    .right{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
     
+}
