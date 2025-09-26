@@ -1,12 +1,16 @@
+/*utilities*/
 * {
     margin: 0;
 
     img {
         border: 1px solid grey;
+        max-width: 100%;
     }
 
 }
 
+/*/utilities*/
+/*debug*/
 .debug {
     background-color: red;
 
@@ -29,13 +33,37 @@
 
 }
 
+/*/Debug*/
 
+/*Body*/
 body {
     height: 100vh;
     overflow: hidden;
 
 }
 
+body {
+    background-color: #222222;
+}
+
+/*Main*/
+
+main {
+    height: calc(100% - 112px);
+    display: flex;
+
+}
+
+.profile,
+.btn-follower {
+    display: none;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
 
 .left {
     width: 70%;
@@ -177,14 +205,16 @@ a:hover {
         img {
             width: 250px;
             height: 250px;
+            max-width: 100%;
 
         }
 
     }
 }
 
+/*/Main*/
 
-
+/*Header*/
 
 header {
     height: 112px;
@@ -253,34 +283,10 @@ header {
 
 }
 
-
-main {
-    height: calc(100% - 112px);
-    display: flex;
-
-}
-
-.container-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-
-}
-
-body {
-    background-color: #222222;
-}
-
-.profile,
-.btn-follower {
-    display: none;
-}
+/*/Header*/
 
 
-
-
-
-
-
+/*Breakpoint vis: tablet(744px)*/
 @media screen and (max-width:744px) {
     .top {
         .discover {
@@ -400,7 +406,9 @@ body {
     }
 }
 
+/*Breakpoint vis: tablet(744px)*/
 
+/*Breakpoint vis: Phone(600px)*/
 @media screen and (max-width:600px) {
     header {
         & .top {
@@ -437,3 +445,5 @@ body {
         grid-template-columns: repeat(2, 1fr)
     }
 }
+
+/*/Breakpoint vis: Phone(600px)*/
